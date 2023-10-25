@@ -1,0 +1,7 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+.Footer {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(20, 158, 202);
+  color: #F6F7F9;
+}
