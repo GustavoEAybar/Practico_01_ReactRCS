@@ -30,9 +30,9 @@ const FormTask = () => {
           <Form.Label>Ingrese una tarea:</Form.Label>
           <Form.Control type="text" placeholder="Tarea" onChange={(e)=>setTask(e.target.value)}
           value={task}/>
-          {/* <Form.Text className="text-muted">
-            We'll never share your email with anyone else.
-          </Form.Text> */}
+          <Form.Text className="text-muted">
+            Recuerde precionar "Enter" para agregar la tarea a la lista.
+          </Form.Text>
         </Form.Group>
         <Button className='d-none' variant="primary" type="submit">
           Agregar

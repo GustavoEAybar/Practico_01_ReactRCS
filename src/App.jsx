@@ -4,7 +4,7 @@ import Header from './components/layout/Header/Header';
 import HelloWorld from './components/HelloWorld/HelloWorld';
 import Footer from './components/layout/Footer/Footer';
 import ListOfTasks from './components/ListOfTasks/ListOfTasks';
-import ColorPalete from './components/ColorPalete/ColorPalete';
+import ColorPalete from './components/ColorPalette/ColorPalette';
 
 function App() {
   return (
