@@ -1,15 +1,18 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/layout/Header/Header';
-import Punto01 from './components/Punto01';
+import HelloWorld from './components/HelloWorld/HelloWorld';
 import Footer from './components/layout/Footer/Footer';
+import ListOfTasks from './components/ListOfTasks/ListOfTasks';
+import ColorPalete from './components/ColorPalete/ColorPalete';
 
 function App() {
-
   return (
     <div>
       <Header/>
-      <Punto01/>
+      <HelloWorld nuevoSaludo='amigo mio'/>
+      <ListOfTasks></ListOfTasks>
+      <ColorPalete></ColorPalete>
       <Footer/>
     </div>
   )
