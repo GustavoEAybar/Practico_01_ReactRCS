@@ -1,10 +1,8 @@
-import React from 'react';
-
-const Avatar = () => {
+const Avatar = ({ avatar }) => {
     return (
-        <div>
-            
-        </div>
+        <section>
+            <img src={avatar} alt="imagen de perfil" />
+        </section>
     );
 };
 
