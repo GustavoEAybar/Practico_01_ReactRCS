@@ -12,6 +12,7 @@ import WeatherWeb from './components/WeatherWeb/WeatherWeb';
 import RecipeBlog from './components/RecipeBlog/RecipeBlog';
 import NewsWebsite from './components/NewsWebsite/NewsWebsite';
 import MovieRegistration from './components/MovieRegistration/MovieRegistration';
+import Prueva from './components/VeterinaryPatients/Prueva';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <NewsWebsite />
       <WeatherWeb />
       <RecipeBlog />
+      <Prueva />
       <Footer/>
     </div>
   )

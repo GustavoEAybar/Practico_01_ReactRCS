@@ -21,7 +21,7 @@ const FormData = () => {
         denyButtonText: `Cancelar`,
       }).then((result) => {
         if (result.isConfirmed) {
-          Swal.fire('Enviado!', '', 'success')
+          Swal.fire('datos Enviado!', '', 'success')
         } else if (result.isDenied) {
           Swal.fire('Envio cancelado', '', 'info')
         }
@@ -30,7 +30,7 @@ const FormData = () => {
       Swal.fire({
         icon: 'error',
         title: 'Oops...',
-        text: 'Debe completar todos los campos con datos validos',
+        text: 'Completar todos los campos',
         footer: '<a href="">Why do I have this issue?</a>'
       })
     }

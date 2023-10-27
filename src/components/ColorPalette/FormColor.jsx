@@ -20,6 +20,10 @@ const FormColor = () => {
     setColors(filterArray);
   };
 
+  const colorDeFondo = {
+    backgroundColor: `${color}`,
+  }
+
   useEffect(() => {
     localStorage.setItem("colorlist", JSON.stringify(colors));
   }, [colors]);
@@ -28,7 +32,7 @@ const FormColor = () => {
     <>
       <section className="container">
         <article className="bg-info bg-success p-2 bg-opacity-10 row d-flex flex-row">
-          <div className="p-5 m-3 bg-danger col-2"></div>
+          <div className="p-5 m-3 col-2" style={colorDeFondo}></div>
           <div className="col">
             <Form onSubmit={handlesubmit}>
               <Form.Group className="my-3 text-end">
